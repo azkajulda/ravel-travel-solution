@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  exportPathMap: function () {
+  exportPathMap: async function () {
     return {
       '/': {page: '/pages/login'},
       '/login': {page: '/pages/login'},
